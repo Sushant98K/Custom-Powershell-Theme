@@ -5,6 +5,13 @@
       "alignment": "left",
       "segments": [
         {
+          "background": "#3A3A3A",
+          "foreground": "#ffffff",
+          "style": "powerline",
+          "template": "{{ if .WSL }}WSL at{{ end }} {{.Icon}} ",
+          "type": "os"
+        },
+        {
           "background": "#ffe9aa",
           "foreground": "#100e23",
           "powerline_symbol": "\ue0b0",
